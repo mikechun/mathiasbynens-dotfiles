@@ -921,6 +921,13 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 #defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
 ###############################################################################
+# VS Code.app#
+###############################################################################
+# Enable Key repeat. Useful VIM extension
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
